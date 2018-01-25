@@ -1,0 +1,50 @@
+*{
+    color:white;
+}
+
+
+#main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.navbar-brand span
+{
+  color:white;
+  
+}
+#login{
+    margin-top: 70px;
+	width: 400px;	
+	padding: 50px;
+	background-color: #032F55;
+	/*border: 2px solid #154751;*/
+	border-radius: 10px;
+}
+
+ul > li >a{
+  color:white;
+}
+ul > li >a:hover{
+  color:#032F55;
+}
+
+.btn-new {
+        background-color: #ff9a00;
+        color: white;
+        border-color: #ff9a00;
+        border-radius: 5px;
+    }
+    .btn-new:hover,
+    .btn-new:focus,
+    .btn-new:active    {
+        background-color: #f48024;
+        color: white;
+        border-color: #f48024;
+    }
+.card{
+    background-color: #032F55;
+}

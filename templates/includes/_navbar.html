@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-sm navbar-light"  style="background-color: #FF9A00;">
+  <div class="container">
+    <a class="navbar-brand mb-0 h1" href="{{url_for('login')}}"><span class="mb-0 h1">NITTI</span></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ml-auto">
+        {% if session.logged_in %}
+        <li class="nav-item"><a class="nav-link h6" href="/logout" style="color: white;" onmouseover="this.style.color='#032F55'"" onmouseout="this.style.color='white'">Log out</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ 
+
+
+
+
+ 
